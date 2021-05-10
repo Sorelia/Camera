@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    ///Sets up the Camera based on heigh and width
+    ///Sets up the Camera based on height and width
     private void SetupCamera(int width, int height){
         CameraManager mCameraManager = (CameraManager) getSystemService(Context.CAMERA_SERVICE); // Needs to be casted
 
